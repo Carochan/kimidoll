@@ -13,7 +13,7 @@ body {
   height: 30em;
   background: lavender;
   margin: auto;
-  top: 10%;
+  margin-top: 10%;
 }
 
 /*styling the head*/
@@ -39,6 +39,7 @@ body {
   position: relative;
   margin: auto;
   top: 20%;
+  z-index: 1;
 }
 .face-area .top-area {
   width: 100%;
@@ -96,5 +97,54 @@ body {
 
 .body {
   width: 100%;
-  height: 50%;
+  height: 60%;
+  background-image: url("images/kimono.jpeg");
+  background-size: cover;
+  border-top-left-radius: 100% 100%;
+  border-top-right-radius: 100% 100%; 
+  border-bottom-left-radius: 10% 100%;
+  border-bottom-right-radius: 10% 100%; 
+  position: relative;
+  bottom: 12%;
 }
+hr {
+  width: 74%;
+  height: 2px;
+  color: black;
+  border: 2px solid black;
+  transform: rotate(-50deg);
+
+}
+.body div {
+  position: absolute;
+}
+.kimono {
+  width: 25%;
+  height: 70%;
+  border: 2px solid black;
+  top: 17%;
+}
+.kimono-left {
+  left: 0;
+  border-top-left-radius: 100% 100%;
+  border-bottom-left-radius: 10% 100%;
+}
+.kimono-right {
+  right: 0;
+  border-top-right-radius: 100% 100%; 
+  border-bottom-right-radius: 10% 100%;
+}
+.obi {
+  width: 50%;
+  height: 30%;
+  background-image: url("images/obi.jpg");
+  background-size: cover;
+  top: 30%;
+  left: 25%;
+}
+
+
+
+
+
+
