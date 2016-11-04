@@ -9,9 +9,8 @@ body {
   font-size: 14px;
 }
 .canvas {
-  width: 18em;
+  width: 16em;
   height: 30em;
-  background: lavender;
   margin: auto;
   margin-top: 10%;
 }
@@ -73,7 +72,7 @@ body {
   height: 10%;
   border-radius: 100% / 100%;
   background: red;
-  bottom: 40%;
+  bottom: 35%;
   left: 48%;
 }
 .blush {
@@ -102,26 +101,26 @@ body {
   background-size: cover;
   border-top-left-radius: 100% 100%;
   border-top-right-radius: 100% 100%; 
-  border-bottom-left-radius: 10% 100%;
-  border-bottom-right-radius: 10% 100%; 
+  border-bottom-left-radius: 30% 100%;
+  border-bottom-right-radius: 30% 100%; 
   position: relative;
-  bottom: 12%;
+  bottom: 13%;
 }
 hr {
   width: 74%;
   height: 2px;
   color: black;
-  border: 2px solid black;
-  transform: rotate(-50deg);
+  border: 2px solid purple;
+  transform: rotate(-58deg);
 
 }
 .body div {
   position: absolute;
 }
 .kimono {
-  width: 25%;
+  width: 30%;
   height: 70%;
-  border: 2px solid black;
+  border: 2px solid purple;
   top: 17%;
 }
 .kimono-left {
@@ -135,12 +134,29 @@ hr {
   border-bottom-right-radius: 10% 100%;
 }
 .obi {
-  width: 50%;
+  width: 40%;
   height: 30%;
   background-image: url("images/obi.jpg");
   background-size: cover;
   top: 30%;
-  left: 25%;
+  left: 30%;
+}
+.hand {
+  width: 10%;
+  height: 10%;
+  background: #FFCDB7;
+  top: 17%;
+  border: 2px solid tan;
+}
+.hand-left {
+  left: 30%;
+  border-top-right-radius: 100% 100%; 
+  border-bottom-right-radius: 100% 100%;
+}
+.hand-right {
+  right: 30%;
+  border-top-left-radius: 100% 100%;
+  border-bottom-left-radius: 100% 100%;
 }
 
 
